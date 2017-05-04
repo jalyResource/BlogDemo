@@ -15,6 +15,7 @@
 		DB5FACA41EBABFD6003D222A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5FACA21EBABFD6003D222A /* LaunchScreen.storyboard */; };
 		DB5FACAF1EBABFD6003D222A /* CoreAnimation_ImplicitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACAE1EBABFD6003D222A /* CoreAnimation_ImplicitTests.m */; };
 		DB5FACBA1EBABFD6003D222A /* CoreAnimation_ImplicitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACB91EBABFD6003D222A /* CoreAnimation_ImplicitUITests.m */; };
+		DB5FACCA1EBAC0A3003D222A /* ViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DB5FACB51EBABFD6003D222A /* CoreAnimation-ImplicitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreAnimation-ImplicitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5FACB91EBABFD6003D222A /* CoreAnimation_ImplicitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation_ImplicitUITests.m; sourceTree = "<group>"; };
 		DB5FACBB1EBABFD6003D222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5FACC81EBAC0A3003D222A /* ViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTestViewController.h; sourceTree = "<group>"; };
+		DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DB5FAC931EBABFD6003D222A /* CoreAnimation-Implicit */ = {
 			isa = PBXGroup;
 			children = (
+				DB5FACC71EBAC084003D222A /* Controllers */,
 				DB5FAC971EBABFD6003D222A /* AppDelegate.h */,
 				DB5FAC981EBABFD6003D222A /* AppDelegate.m */,
 				DB5FAC9A1EBABFD6003D222A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DB5FACBB1EBABFD6003D222A /* Info.plist */,
 			);
 			path = "CoreAnimation-ImplicitUITests";
+			sourceTree = "<group>";
+		};
+		DB5FACC71EBAC084003D222A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FACC81EBAC0A3003D222A /* ViewTestViewController.h */,
+				DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5FAC9C1EBABFD6003D222A /* ViewController.m in Sources */,
+				DB5FACCA1EBAC0A3003D222A /* ViewTestViewController.m in Sources */,
 				DB5FAC991EBABFD6003D222A /* AppDelegate.m in Sources */,
 				DB5FAC961EBABFD6003D222A /* main.m in Sources */,
 			);
