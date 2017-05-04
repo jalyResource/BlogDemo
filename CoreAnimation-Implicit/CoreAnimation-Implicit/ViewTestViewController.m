@@ -18,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSLog(@"%@   %@", nil ,[NSNull null]);
+    NSLog(@"%@", [self.redView actionForLayer:self.redView.layer forKey:@"backgroundColor"]);
+    
+
+    [UIView animateWithDuration:0.1 animations:^{
+        NSLog(@"%@", [self.redView actionForLayer:self.redView.layer forKey:@"backgroundColor"]);
+    }];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
