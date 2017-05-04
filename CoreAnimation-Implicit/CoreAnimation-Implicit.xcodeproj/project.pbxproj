@@ -16,6 +16,7 @@
 		DB5FACAF1EBABFD6003D222A /* CoreAnimation_ImplicitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACAE1EBABFD6003D222A /* CoreAnimation_ImplicitTests.m */; };
 		DB5FACBA1EBABFD6003D222A /* CoreAnimation_ImplicitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACB91EBABFD6003D222A /* CoreAnimation_ImplicitUITests.m */; };
 		DB5FACCA1EBAC0A3003D222A /* ViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */; };
+		DB5FACCD1EBAC4EA003D222A /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACCC1EBAC4EA003D222A /* QuestionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		DB5FACBB1EBABFD6003D222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB5FACC81EBAC0A3003D222A /* ViewTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTestViewController.h; sourceTree = "<group>"; };
 		DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTestViewController.m; sourceTree = "<group>"; };
+		DB5FACCB1EBAC4EA003D222A /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		DB5FACCC1EBAC4EA003D222A /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +150,8 @@
 		DB5FACC71EBAC084003D222A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DB5FACCB1EBAC4EA003D222A /* QuestionViewController.h */,
+				DB5FACCC1EBAC4EA003D222A /* QuestionViewController.m */,
 				DB5FACC81EBAC0A3003D222A /* ViewTestViewController.h */,
 				DB5FACC91EBAC0A3003D222A /* ViewTestViewController.m */,
 			);
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5FAC9C1EBABFD6003D222A /* ViewController.m in Sources */,
+				DB5FACCD1EBAC4EA003D222A /* QuestionViewController.m in Sources */,
 				DB5FACCA1EBAC0A3003D222A /* ViewTestViewController.m in Sources */,
 				DB5FAC991EBABFD6003D222A /* AppDelegate.m in Sources */,
 				DB5FAC961EBABFD6003D222A /* main.m in Sources */,

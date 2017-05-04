@@ -27,18 +27,34 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="I8N-AI-N2P"/>
                                 </constraints>
+                                <state key="normal" title="文章开头 小问题">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ApL-UZ-6fu" kind="push" id="MJM-8Y-rjr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUq-eV-PoE">
+                                <rect key="frame" x="30" y="158" width="315" height="35"/>
+                                <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="nMO-eT-4M9"/>
+                                </constraints>
                                 <state key="normal" title="测试 UIView 隐式动画">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="e8T-xK-tLO" kind="push" id="paN-5M-0ml"/>
+                                    <segue destination="e8T-xK-tLO" kind="push" id="LAr-Db-q7A"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="zUq-eV-PoE" firstAttribute="leading" secondItem="fj9-xp-lua" secondAttribute="leading" id="CP8-jD-VVq"/>
+                            <constraint firstItem="zUq-eV-PoE" firstAttribute="top" secondItem="fj9-xp-lua" secondAttribute="bottom" constant="29" id="I8r-Dl-Wdx"/>
                             <constraint firstItem="fj9-xp-lua" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="L4C-Mp-ooX"/>
                             <constraint firstAttribute="trailing" secondItem="fj9-xp-lua" secondAttribute="trailing" constant="30" id="eHs-45-xao"/>
+                            <constraint firstItem="zUq-eV-PoE" firstAttribute="trailing" secondItem="fj9-xp-lua" secondAttribute="trailing" id="jrz-pi-49a"/>
                             <constraint firstItem="fj9-xp-lua" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="y7m-9r-Wiq"/>
                         </constraints>
                     </view>
@@ -47,6 +63,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="367" y="-9"/>
+        </scene>
+        <!--Question View Controller-->
+        <scene sceneID="oDJ-tC-Jcq">
+            <objects>
+                <viewController id="ApL-UZ-6fu" customClass="QuestionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5g0-oP-1QM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aoi-Lf-WLT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1tT-hB-RzK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMP-Ff-SZI">
+                                <rect key="frame" x="23" y="100" width="125" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94117647059999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x6Q-9d-4UF"/>
+                    <connections>
+                        <outlet property="redView" destination="cMP-Ff-SZI" id="Yem-sR-wTW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ski-VI-suC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120.8" y="-664.31784107946032"/>
         </scene>
         <!--View Test View Controller-->
         <scene sceneID="JgL-OO-ScI">
@@ -91,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVo-3j-KkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1125.5999999999999" y="-9.4452773613193415"/>
+            <point key="canvasLocation" x="1143" y="49"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0ob-UB-5NV">
