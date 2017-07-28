@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BsR-RZ-1hU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cF6-d2-Dil">
+                                <rect key="frame" x="30" y="84" width="315" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="psc-Qn-dpa"/>
+                                </constraints>
+                                <state key="normal" title="semaphore"/>
+                                <connections>
+                                    <segue destination="Efh-lJ-L01" kind="push" id="OLT-BT-1fy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dt9-C4-9U3">
+                                <rect key="frame" x="30" y="148" width="315" height="35"/>
+                                <state key="normal" title="消息转发"/>
+                                <connections>
+                                    <segue destination="pTZ-h8-5ko" kind="push" id="TxO-PP-Ud4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dt9-C4-9U3" firstAttribute="trailing" secondItem="cF6-d2-Dil" secondAttribute="trailing" id="BGb-zB-20G"/>
+                            <constraint firstItem="dt9-C4-9U3" firstAttribute="leading" secondItem="cF6-d2-Dil" secondAttribute="leading" id="G1o-bz-U78"/>
+                            <constraint firstItem="cF6-d2-Dil" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="KLx-ua-16i"/>
+                            <constraint firstItem="dt9-C4-9U3" firstAttribute="top" secondItem="cF6-d2-Dil" secondAttribute="bottom" constant="29" id="WZx-0L-NBz"/>
+                            <constraint firstItem="cF6-d2-Dil" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="ZQ7-4T-bun"/>
+                            <constraint firstAttribute="trailing" secondItem="cF6-d2-Dil" secondAttribute="trailing" constant="30" id="hkj-m8-CSJ"/>
+                            <constraint firstItem="dt9-C4-9U3" firstAttribute="height" secondItem="cF6-d2-Dil" secondAttribute="height" id="tro-xW-i2G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4jL-II-EwN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="-561"/>
+        </scene>
+        <!--Semaphore View Controller-->
+        <scene sceneID="xfQ-Zp-EDS">
+            <objects>
+                <viewController id="Efh-lJ-L01" customClass="SemaphoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6lD-FK-T8F"/>
+                        <viewControllerLayoutGuide type="bottom" id="lXW-tx-YDh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HJO-eo-32v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qhl-ek-7u6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKm-Ya-MBq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802" y="-664"/>
+        </scene>
+        <!--Msg Forward View Controller-->
+        <scene sceneID="1i6-fH-PnQ">
+            <objects>
+                <viewController id="pTZ-h8-5ko" customClass="MsgForwardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F3y-MO-oCH"/>
+                        <viewControllerLayoutGuide type="bottom" id="bAQ-9Z-HN6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t35-uI-nnt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FcT-ff-4ae"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A9C-9Z-14U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801" y="-7"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GGN-Zq-VO8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BsR-RZ-1hU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vGD-Mp-itj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yRH-YD-Msy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ3-5v-8gO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="504.80000000000001" y="-560.86956521739137"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21019772AC1AE13EEABEE1C6 /* libPods-dispatch_semaphoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E88B6611FBE156E519B9AF /* libPods-dispatch_semaphoreTests.a */; };
+		A3E0DA17D7061810A94C9A13 /* libPods-dispatch_semaphore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F093A1C83C25552F0D20CF0 /* libPods-dispatch_semaphore.a */; };
+		BF6FCCBA0C049341ACC2B0C8 /* libPods-dispatch_semaphoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAD08F926021265016414B3 /* libPods-dispatch_semaphoreUITests.a */; };
+		DB4F3CEF1EBC181600281CFF /* NSObject+logVarMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4F3CEE1EBC181600281CFF /* NSObject+logVarMethod.m */; };
+		DB5FACDF1EBB18C4003D222A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACDE1EBB18C4003D222A /* main.m */; };
+		DB5FACE21EBB18C4003D222A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACE11EBB18C4003D222A /* AppDelegate.m */; };
+		DB5FACE51EBB18C4003D222A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACE41EBB18C4003D222A /* ViewController.m */; };
+		DB5FACE81EBB18C4003D222A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5FACE61EBB18C4003D222A /* Main.storyboard */; };
+		DB5FACEA1EBB18C4003D222A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5FACE91EBB18C4003D222A /* Assets.xcassets */; };
+		DB5FACED1EBB18C4003D222A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5FACEB1EBB18C4003D222A /* LaunchScreen.storyboard */; };
+		DB5FACF81EBB18C4003D222A /* dispatch_semaphoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FACF71EBB18C4003D222A /* dispatch_semaphoreTests.m */; };
+		DB5FAD031EBB18C4003D222A /* dispatch_semaphoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FAD021EBB18C4003D222A /* dispatch_semaphoreUITests.m */; };
+		DB5FAD131EBB18D9003D222A /* SemaphoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FAD121EBB18D9003D222A /* SemaphoreViewController.m */; };
+		DB5FAD171EBB208A003D222A /* NetReq.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FAD161EBB208A003D222A /* NetReq.m */; };
+		DB5FAD1A1EBB3052003D222A /* MsgForwardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FAD191EBB3052003D222A /* MsgForwardViewController.m */; };
+		DB5FAD1E1EBB30C2003D222A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5FAD1D1EBB30C2003D222A /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5FACF41EBB18C4003D222A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5FACD21EBB18C3003D222A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5FACD91EBB18C4003D222A;
+			remoteInfo = dispatch_semaphore;
+		};
+		DB5FACFF1EBB18C4003D222A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5FACD21EBB18C3003D222A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5FACD91EBB18C4003D222A;
+			remoteInfo = dispatch_semaphore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1263E2E9392F8D152146B30B /* Pods-dispatch_semaphoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphoreUITests/Pods-dispatch_semaphoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F093A1C83C25552F0D20CF0 /* libPods-dispatch_semaphore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dispatch_semaphore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C2D10BA891C4BE887243D1 /* Pods-dispatch_semaphoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphoreTests/Pods-dispatch_semaphoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		60E88B6611FBE156E519B9AF /* libPods-dispatch_semaphoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dispatch_semaphoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F424CA1B4761464DEC0BAAE /* Pods-dispatch_semaphore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphore.release.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphore/Pods-dispatch_semaphore.release.xcconfig"; sourceTree = "<group>"; };
+		7DBF987CC80699FC5492F6D6 /* Pods-dispatch_semaphoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphoreUITests/Pods-dispatch_semaphoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EAD08F926021265016414B3 /* libPods-dispatch_semaphoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dispatch_semaphoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2EDF4334DC74A660E2D129 /* Pods-dispatch_semaphoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphoreTests/Pods-dispatch_semaphoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4F3CED1EBC181600281CFF /* NSObject+logVarMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+logVarMethod.h"; sourceTree = "<group>"; };
+		DB4F3CEE1EBC181600281CFF /* NSObject+logVarMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+logVarMethod.m"; sourceTree = "<group>"; };
+		DB5FACDA1EBB18C4003D222A /* dispatch_semaphore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dispatch_semaphore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5FACDE1EBB18C4003D222A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB5FACE01EBB18C4003D222A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB5FACE11EBB18C4003D222A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB5FACE31EBB18C4003D222A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB5FACE41EBB18C4003D222A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB5FACE71EBB18C4003D222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5FACE91EBB18C4003D222A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5FACEC1EBB18C4003D222A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5FACEE1EBB18C4003D222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5FACF31EBB18C4003D222A /* dispatch_semaphoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dispatch_semaphoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5FACF71EBB18C4003D222A /* dispatch_semaphoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreTests.m; sourceTree = "<group>"; };
+		DB5FACF91EBB18C4003D222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5FACFE1EBB18C4003D222A /* dispatch_semaphoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dispatch_semaphoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5FAD021EBB18C4003D222A /* dispatch_semaphoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch_semaphoreUITests.m; sourceTree = "<group>"; };
+		DB5FAD041EBB18C4003D222A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5FAD111EBB18D9003D222A /* SemaphoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemaphoreViewController.h; sourceTree = "<group>"; };
+		DB5FAD121EBB18D9003D222A /* SemaphoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemaphoreViewController.m; sourceTree = "<group>"; };
+		DB5FAD151EBB208A003D222A /* NetReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReq.h; sourceTree = "<group>"; };
+		DB5FAD161EBB208A003D222A /* NetReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReq.m; sourceTree = "<group>"; };
+		DB5FAD181EBB3052003D222A /* MsgForwardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgForwardViewController.h; sourceTree = "<group>"; };
+		DB5FAD191EBB3052003D222A /* MsgForwardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgForwardViewController.m; sourceTree = "<group>"; };
+		DB5FAD1C1EBB30C2003D222A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DB5FAD1D1EBB30C2003D222A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		ED3BFE66037CE2067C6CCBE1 /* Pods-dispatch_semaphore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dispatch_semaphore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dispatch_semaphore/Pods-dispatch_semaphore.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5FACD71EBB18C4003D222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E0DA17D7061810A94C9A13 /* libPods-dispatch_semaphore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACF01EBB18C4003D222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21019772AC1AE13EEABEE1C6 /* libPods-dispatch_semaphoreTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACFB1EBB18C4003D222A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6FCCBA0C049341ACC2B0C8 /* libPods-dispatch_semaphoreUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2968C3937E5159ED4B541C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED3BFE66037CE2067C6CCBE1 /* Pods-dispatch_semaphore.debug.xcconfig */,
+				6F424CA1B4761464DEC0BAAE /* Pods-dispatch_semaphore.release.xcconfig */,
+				AD2EDF4334DC74A660E2D129 /* Pods-dispatch_semaphoreTests.debug.xcconfig */,
+				50C2D10BA891C4BE887243D1 /* Pods-dispatch_semaphoreTests.release.xcconfig */,
+				1263E2E9392F8D152146B30B /* Pods-dispatch_semaphoreUITests.debug.xcconfig */,
+				7DBF987CC80699FC5492F6D6 /* Pods-dispatch_semaphoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB4F3CEC1EBC181600281CFF /* RuntimeLog */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F3CED1EBC181600281CFF /* NSObject+logVarMethod.h */,
+				DB4F3CEE1EBC181600281CFF /* NSObject+logVarMethod.m */,
+			);
+			path = RuntimeLog;
+			sourceTree = "<group>";
+		};
+		DB5FACD11EBB18C3003D222A = {
+			isa = PBXGroup;
+			children = (
+				DB5FACDC1EBB18C4003D222A /* dispatch_semaphore */,
+				DB5FACF61EBB18C4003D222A /* dispatch_semaphoreTests */,
+				DB5FAD011EBB18C4003D222A /* dispatch_semaphoreUITests */,
+				DB5FACDB1EBB18C4003D222A /* Products */,
+				2968C3937E5159ED4B541C3E /* Pods */,
+				DD66ED69E4B185B8F9B1C1C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5FACDB1EBB18C4003D222A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FACDA1EBB18C4003D222A /* dispatch_semaphore.app */,
+				DB5FACF31EBB18C4003D222A /* dispatch_semaphoreTests.xctest */,
+				DB5FACFE1EBB18C4003D222A /* dispatch_semaphoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5FACDC1EBB18C4003D222A /* dispatch_semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F3CEC1EBC181600281CFF /* RuntimeLog */,
+				DB5FAD1B1EBB30B6003D222A /* Model */,
+				DB5FAD141EBB207E003D222A /* NetTool */,
+				DB5FAD101EBB18C9003D222A /* semaphore */,
+				DB5FACE01EBB18C4003D222A /* AppDelegate.h */,
+				DB5FACE11EBB18C4003D222A /* AppDelegate.m */,
+				DB5FACE31EBB18C4003D222A /* ViewController.h */,
+				DB5FACE41EBB18C4003D222A /* ViewController.m */,
+				DB5FACE61EBB18C4003D222A /* Main.storyboard */,
+				DB5FACE91EBB18C4003D222A /* Assets.xcassets */,
+				DB5FACEB1EBB18C4003D222A /* LaunchScreen.storyboard */,
+				DB5FACEE1EBB18C4003D222A /* Info.plist */,
+				DB5FACDD1EBB18C4003D222A /* Supporting Files */,
+			);
+			path = dispatch_semaphore;
+			sourceTree = "<group>";
+		};
+		DB5FACDD1EBB18C4003D222A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FACDE1EBB18C4003D222A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB5FACF61EBB18C4003D222A /* dispatch_semaphoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FACF71EBB18C4003D222A /* dispatch_semaphoreTests.m */,
+				DB5FACF91EBB18C4003D222A /* Info.plist */,
+			);
+			path = dispatch_semaphoreTests;
+			sourceTree = "<group>";
+		};
+		DB5FAD011EBB18C4003D222A /* dispatch_semaphoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FAD021EBB18C4003D222A /* dispatch_semaphoreUITests.m */,
+				DB5FAD041EBB18C4003D222A /* Info.plist */,
+			);
+			path = dispatch_semaphoreUITests;
+			sourceTree = "<group>";
+		};
+		DB5FAD101EBB18C9003D222A /* semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FAD111EBB18D9003D222A /* SemaphoreViewController.h */,
+				DB5FAD121EBB18D9003D222A /* SemaphoreViewController.m */,
+				DB5FAD181EBB3052003D222A /* MsgForwardViewController.h */,
+				DB5FAD191EBB3052003D222A /* MsgForwardViewController.m */,
+			);
+			name = semaphore;
+			sourceTree = "<group>";
+		};
+		DB5FAD141EBB207E003D222A /* NetTool */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FAD151EBB208A003D222A /* NetReq.h */,
+				DB5FAD161EBB208A003D222A /* NetReq.m */,
+			);
+			name = NetTool;
+			sourceTree = "<group>";
+		};
+		DB5FAD1B1EBB30B6003D222A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB5FAD1C1EBB30C2003D222A /* Person.h */,
+				DB5FAD1D1EBB30C2003D222A /* Person.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD66ED69E4B185B8F9B1C1C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F093A1C83C25552F0D20CF0 /* libPods-dispatch_semaphore.a */,
+				60E88B6611FBE156E519B9AF /* libPods-dispatch_semaphoreTests.a */,
+				8EAD08F926021265016414B3 /* libPods-dispatch_semaphoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5FACD91EBB18C4003D222A /* dispatch_semaphore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5FAD071EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphore" */;
+			buildPhases = (
+				502515F2DB4061D4FC085B5C /* [CP] Check Pods Manifest.lock */,
+				DB5FACD61EBB18C4003D222A /* Sources */,
+				DB5FACD71EBB18C4003D222A /* Frameworks */,
+				DB5FACD81EBB18C4003D222A /* Resources */,
+				374C7FFF8862611814C43BBA /* [CP] Embed Pods Frameworks */,
+				B39DEC662F009D270EFB3612 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dispatch_semaphore;
+			productName = dispatch_semaphore;
+			productReference = DB5FACDA1EBB18C4003D222A /* dispatch_semaphore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5FACF21EBB18C4003D222A /* dispatch_semaphoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5FAD0A1EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphoreTests" */;
+			buildPhases = (
+				BAA4F059A660EA930381877F /* [CP] Check Pods Manifest.lock */,
+				DB5FACEF1EBB18C4003D222A /* Sources */,
+				DB5FACF01EBB18C4003D222A /* Frameworks */,
+				DB5FACF11EBB18C4003D222A /* Resources */,
+				A38F6D61FAA476A41D3AA1A5 /* [CP] Embed Pods Frameworks */,
+				931A21A9222926DBBFA51438 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5FACF51EBB18C4003D222A /* PBXTargetDependency */,
+			);
+			name = dispatch_semaphoreTests;
+			productName = dispatch_semaphoreTests;
+			productReference = DB5FACF31EBB18C4003D222A /* dispatch_semaphoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB5FACFD1EBB18C4003D222A /* dispatch_semaphoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5FAD0D1EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphoreUITests" */;
+			buildPhases = (
+				96166D153CF859B96B7C13DA /* [CP] Check Pods Manifest.lock */,
+				DB5FACFA1EBB18C4003D222A /* Sources */,
+				DB5FACFB1EBB18C4003D222A /* Frameworks */,
+				DB5FACFC1EBB18C4003D222A /* Resources */,
+				9CF86A57653F3542F8551ADB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5FAD001EBB18C4003D222A /* PBXTargetDependency */,
+			);
+			name = dispatch_semaphoreUITests;
+			productName = dispatch_semaphoreUITests;
+			productReference = DB5FACFE1EBB18C4003D222A /* dispatch_semaphoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5FACD21EBB18C3003D222A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kongfz;
+				TargetAttributes = {
+					DB5FACD91EBB18C4003D222A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB5FACF21EBB18C4003D222A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB5FACD91EBB18C4003D222A;
+					};
+					DB5FACFD1EBB18C4003D222A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB5FACD91EBB18C4003D222A;
+					};
+				};
+			};
+			buildConfigurationList = DB5FACD51EBB18C3003D222A /* Build configuration list for PBXProject "dispatch_semaphore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5FACD11EBB18C3003D222A;
+			productRefGroup = DB5FACDB1EBB18C4003D222A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5FACD91EBB18C4003D222A /* dispatch_semaphore */,
+				DB5FACF21EBB18C4003D222A /* dispatch_semaphoreTests */,
+				DB5FACFD1EBB18C4003D222A /* dispatch_semaphoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5FACD81EBB18C4003D222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5FACED1EBB18C4003D222A /* LaunchScreen.storyboard in Resources */,
+				DB5FACEA1EBB18C4003D222A /* Assets.xcassets in Resources */,
+				DB5FACE81EBB18C4003D222A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACF11EBB18C4003D222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACFC1EBB18C4003D222A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		374C7FFF8862611814C43BBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dispatch_semaphore/Pods-dispatch_semaphore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		502515F2DB4061D4FC085B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		931A21A9222926DBBFA51438 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dispatch_semaphoreTests/Pods-dispatch_semaphoreTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96166D153CF859B96B7C13DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF86A57653F3542F8551ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dispatch_semaphoreUITests/Pods-dispatch_semaphoreUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38F6D61FAA476A41D3AA1A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dispatch_semaphoreTests/Pods-dispatch_semaphoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39DEC662F009D270EFB3612 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dispatch_semaphore/Pods-dispatch_semaphore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA4F059A660EA930381877F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5FACD61EBB18C4003D222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5FAD1A1EBB3052003D222A /* MsgForwardViewController.m in Sources */,
+				DB4F3CEF1EBC181600281CFF /* NSObject+logVarMethod.m in Sources */,
+				DB5FACE51EBB18C4003D222A /* ViewController.m in Sources */,
+				DB5FAD1E1EBB30C2003D222A /* Person.m in Sources */,
+				DB5FAD171EBB208A003D222A /* NetReq.m in Sources */,
+				DB5FACE21EBB18C4003D222A /* AppDelegate.m in Sources */,
+				DB5FACDF1EBB18C4003D222A /* main.m in Sources */,
+				DB5FAD131EBB18D9003D222A /* SemaphoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACEF1EBB18C4003D222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5FACF81EBB18C4003D222A /* dispatch_semaphoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5FACFA1EBB18C4003D222A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5FAD031EBB18C4003D222A /* dispatch_semaphoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5FACF51EBB18C4003D222A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5FACD91EBB18C4003D222A /* dispatch_semaphore */;
+			targetProxy = DB5FACF41EBB18C4003D222A /* PBXContainerItemProxy */;
+		};
+		DB5FAD001EBB18C4003D222A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5FACD91EBB18C4003D222A /* dispatch_semaphore */;
+			targetProxy = DB5FACFF1EBB18C4003D222A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5FACE61EBB18C4003D222A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5FACE71EBB18C4003D222A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5FACEB1EBB18C4003D222A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5FACEC1EBB18C4003D222A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5FAD051EBB18C4003D222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB5FAD061EBB18C4003D222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5FAD081EBB18C4003D222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3BFE66037CE2067C6CCBE1 /* Pods-dispatch_semaphore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dispatch_semaphore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB5FAD091EBB18C4003D222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F424CA1B4761464DEC0BAAE /* Pods-dispatch_semaphore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dispatch_semaphore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB5FAD0B1EBB18C4003D222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD2EDF4334DC74A660E2D129 /* Pods-dispatch_semaphoreTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dispatch_semaphoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dispatch_semaphore.app/dispatch_semaphore";
+			};
+			name = Debug;
+		};
+		DB5FAD0C1EBB18C4003D222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C2D10BA891C4BE887243D1 /* Pods-dispatch_semaphoreTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dispatch_semaphoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dispatch_semaphore.app/dispatch_semaphore";
+			};
+			name = Release;
+		};
+		DB5FAD0E1EBB18C4003D222A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1263E2E9392F8D152146B30B /* Pods-dispatch_semaphoreUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = dispatch_semaphoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dispatch_semaphore;
+			};
+			name = Debug;
+		};
+		DB5FAD0F1EBB18C4003D222A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBF987CC80699FC5492F6D6 /* Pods-dispatch_semaphoreUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = dispatch_semaphoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kongfz.emissionTest.dispatch-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dispatch_semaphore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5FACD51EBB18C3003D222A /* Build configuration list for PBXProject "dispatch_semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5FAD051EBB18C4003D222A /* Debug */,
+				DB5FAD061EBB18C4003D222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5FAD071EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5FAD081EBB18C4003D222A /* Debug */,
+				DB5FAD091EBB18C4003D222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5FAD0A1EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5FAD0B1EBB18C4003D222A /* Debug */,
+				DB5FAD0C1EBB18C4003D222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5FAD0D1EBB18C4003D222A /* Build configuration list for PBXNativeTarget "dispatch_semaphoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5FAD0E1EBB18C4003D222A /* Debug */,
+				DB5FAD0F1EBB18C4003D222A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB5FACD21EBB18C3003D222A /* Project object */;
+}
